@@ -5,7 +5,6 @@ class Scummvm < Formula
   homepage 'http://www.scummvm.org/'
   sha1 'cb64b2be5c867259b4290e94542f27b00c2de79f'
   head 'https://github.com/scummvm/scummvm'
-  devel 'http://buildbot.scummvm.org/snapshots/master/osx_intel-master-latest.tar.xz'
 
   depends_on 'sdl'
   depends_on :libpng

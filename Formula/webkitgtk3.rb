@@ -26,7 +26,7 @@ class Webkitgtk3 < Formula
     system "./configure", "--disable-debug",# "--disable-dependency-tracking",
                           "--enable-static", "--disable-shared",
                           "--prefix=#{prefix}",
-                          "--with-gtk=3.0", 
+                          "--with-gtk=3.0",
                           "--with-target=quartz",
                           "--enable-webkit2=no",
                           "--enable-geolocation=no"
