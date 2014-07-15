@@ -1,8 +1,8 @@
 require "formula"
 
 class ArxLibertatis < Formula
-  homepage "http://arx-libertatis.org/"
-  url "http://arx-libertatis.org/files/arx-libertatis-1.1.2.tar.xz"
+  homepage "https://arx-libertatis.org/"
+  url "https://arx-libertatis.org/files/arx-libertatis-1.1.2.tar.xz"
   sha1 "3b14a55553c564fd33caafb3a5bdb2d328e1fde8"
   head "https://github.com/arx/ArxLibertatis.git"
 
