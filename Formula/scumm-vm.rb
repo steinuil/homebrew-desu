@@ -4,7 +4,7 @@ class ScummVm < Formula
   url 'https://downloads.sourceforge.net/project/scummvm/scummvm/1.6.0/scummvm-1.6.0.tar.bz2'
   homepage 'http://www.scummvm.org/'
   sha1 'cb64b2be5c867259b4290e94542f27b00c2de79f'
-  head 'https://github.com/scummvm/scummvm'
+  head 'https://github.com/scummvm/scummvm.git'
 
   depends_on 'sdl'
   depends_on :libpng
