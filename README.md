@@ -26,6 +26,4 @@ I don't really want to wait for the whole thing to compile though, so whether th
 
     brew tap steinuil/desu
 
-Some of the formulæ need a newer version of zlib to work. You should tap the dupes repo before proceeding:
-
-    brew tap homebrew/dupes
+Use at your own risk. If something does not work out for you just file a bug or something.
