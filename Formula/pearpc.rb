@@ -10,11 +10,11 @@ class Pearpc < Formula
   depends_on :x11 => :optional
 
   def install
-  args << "--enable-ui=sdl" if build.without? :x11
-  args << "--enable-ui=x11" if build.with? :x11
+    args = ["--enable-cpu=jitc_x86"]
+    args << "--enable-ui=sdl" if build.without? :x11
+    args << "--enable-ui=x11" if build.with? :x11
 
-    system "./configure", "--enable-cpu=generic",
-                          *args
+    system "./configure", *args
     system "make", "install"
   end
 end
