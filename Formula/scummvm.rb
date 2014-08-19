@@ -1,9 +1,9 @@
 require 'formula'
 
-class ScummVm < Formula
-  url 'https://downloads.sourceforge.net/project/scummvm/scummvm/1.6.0/scummvm-1.6.0.tar.bz2'
+class Scummvm < Formula
+  url 'https://downloads.sourceforge.net/project/scummvm/scummvm/1.7.0/scummvm-1.7.0.tar.bz2'
   homepage 'http://www.scummvm.org/'
-  sha1 'cb64b2be5c867259b4290e94542f27b00c2de79f'
+  sha1 'a16c84f457b6cdb405739eab72c2106f4674bc75'
   head 'https://github.com/scummvm/scummvm.git'
 
   depends_on 'sdl'
