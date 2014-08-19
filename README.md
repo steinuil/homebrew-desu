@@ -8,6 +8,10 @@ Homebrew formulæ for the whole family.
 
 It just werks. The `--head` version doesn't compile on my machine though.
 
+### `bam`
+
+This is a building system for Teeworlds or something. It works.
+
 ### `pearpc`
 
 It compiles just fine, but it's slower than a slug climbing up a salt obelisk on a dry, sunny day.
@@ -16,11 +20,13 @@ It's just ***that*** slow.
 
 Use it if you have a hexacore CPU from the future or something.
 
-### `scumm-vm`
+### `teeworlds`
 
-Can't remember whether this works or not. I just wanted some kind of formula for development version. It probably does.
+This doesn't work. I don't know why. Maybe one day I'll go in the teeworlds channel and ask why the fuck, but fuck doing that now.
 
-I don't really want to wait for the whole thing to compile though, so whether this works or not will remain a mystery.
+### `scummvm`
+
+This strangely werks.
 
 ## Usage
 
