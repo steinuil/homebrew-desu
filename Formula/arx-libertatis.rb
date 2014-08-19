@@ -1,18 +1,18 @@
-require "formula"
+require 'formula'
 
 class ArxLibertatis < Formula
-  homepage "https://arx-libertatis.org/"
-  url "https://arx-libertatis.org/files/arx-libertatis-1.1.2.tar.xz"
-  sha1 "3b14a55553c564fd33caafb3a5bdb2d328e1fde8"
-  head "https://github.com/arx/ArxLibertatis.git"
+  homepage 'https://arx-libertatis.org/'
+  url 'https://arx-libertatis.org/files/arx-libertatis-1.1.2.tar.xz'
+  sha1 '3b14a55553c564fd33caafb3a5bdb2d328e1fde8'
+  head 'https://github.com/arx/ArxLibertatis.git'
 
-  depends_on "cmake" => :build
-  depends_on "sdl"
-  depends_on "glew"
-  depends_on "boost" => :build
-  depends_on "glm" => :build
-  depends_on "freetype"
-  depends_on "innoextract" => :recommended
+  depends_on 'cmake' => :build
+  depends_on 'boost' => :build
+  depends_on 'glm' => :build
+  depends_on 'sdl'
+  depends_on 'glew'
+  depends_on 'freetype'
+  depends_on 'innoextract' => :recommended
 
   def install
     mkdir "build" do
