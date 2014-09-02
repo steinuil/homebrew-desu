@@ -4,10 +4,6 @@ Homebrew formulæ for the whole family.
 
 ## What works and whatnot
 
-### `arx-libertatis`
-
-It just werks. The `--head` version doesn't compile on my machine though.
-
 ### `bam`
 
 This is a building system for Teeworlds or something. It works.
@@ -23,10 +19,6 @@ Use it if you have a hexacore CPU from the future or something.
 ### `teeworlds`
 
 This doesn't work. I don't know why. Maybe one day I'll go in the teeworlds channel and ask why the fuck, but fuck doing that now.
-
-### `scummvm`
-
-This strangely werks.
 
 ## Usage
 
