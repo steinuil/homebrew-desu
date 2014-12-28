@@ -9,6 +9,11 @@ Homebrew formulæ for the whole family.
 This is a building system for Teeworlds or something. It works, but it's pretty 
 fucking useless if the game it builds doesn't work.
 
+### `noice`
+
+Works just fine, I don't really feel like it's interesting enough to be in the
+main repo so I guess I'll just keep it here until I feel like trying.
+
 ### `pearpc`
 
 It compiles just fine but it's reeeeeally slow. Use it if you have a hexacore
