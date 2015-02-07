@@ -9,6 +9,11 @@ Homebrew formulæ for the whole family.
 This is a building system for Teeworlds or something. It works, but it's pretty 
 fucking useless if the game it builds doesn't work.
 
+### `ffmpeg`
+
+This is just a fix for an upstream issue with ffmpeg, hopefully it'll be fixed
+soon upstream or wherever.
+
 ### `noice`
 
 Works just fine, I don't really feel like it's interesting enough to be in the
