@@ -7,17 +7,14 @@ Homebrew formulæ for the whole family.
 ### `bam`
 This is a building system for Teeworlds or something. It works, but it's pretty fucking useless if the game it builds doesn't work.
 
-### `ffmpeg`
-This is just a fix for an [upstream issue](https://github.com/Homebrew/homebrew/issues/34963) with ffmpeg, hopefully it'll be fixed soon upstream or wherever.
-
 ### `mpv073`
-You've probably guessed it, it's good ol' mpv v0.7.3, the last version to support `vo=opengl_old`, I'm keeping this because my toaster is a toaster and I can't watch muh chinese cartoons without mpv.
+An old version of mpv. I keep in there because it's the last one to support `vo=opengl_old` and it still compiles on OS X 10.7. Fortunately I don't have to use it anymore, but who knows when it might be useful again.
 
 ### `noice`
 Works just fine, I don't really feel like it's interesting enough to be in the main repo so I guess I'll just keep it here until I feel like trying.
 
 ### `pearpc`
-It compiles just fine but it's reeeeeally slow. Use it if you have a hexacore CPU from the future or something.
+It compiles just fine but it's reeeeeally slow. I wouldn't recommend actually using it.
 
 ### `teeworlds`
 This doesn't work. I don't know why. Maybe one day I'll go in the teeworlds channel and ask why the fuck, but fuck doing that now.
