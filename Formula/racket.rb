@@ -5,6 +5,8 @@ class Racket < Formula
   version "6.12"
   sha1 "5acf20dc40c2586cd7c6917ec16cfb86908efe79"
 
+  patch :p0, :DATA
+
   def install
     cd "src" do
       args = ["--disable-debug", "--disable-dependency-tracking",
@@ -33,3 +35,15 @@ class Racket < Formula
     assert_match /Hello Homebrew/, output
   end
 end
+
+__END__
+--- src/racket/src/schpriv.h
++++ src/racket/src/schpriv.h
+@@ -22,6 +22,7 @@
+ 
+ #include "scheme.h"
+ #include "longdouble/longdouble.h"
++#include <sys/types.h>
+ 
+ #ifdef CIL_ANALYSIS
+ #define ROSYM          __attribute__((__ROSYM__))
